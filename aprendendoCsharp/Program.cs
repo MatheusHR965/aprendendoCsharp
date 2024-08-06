@@ -13,7 +13,7 @@ namespace aprendendoCsharp
 
             Console.WriteLine("Ola Mudo!");
 
-            Console.WriteLine(3 + 3);
+            Console.WriteLine(3 + 1);
 
             Console.Read();
 
