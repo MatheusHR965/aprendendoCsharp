@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "aprendendoCsharp", "aprende
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cap02_Ex01", "Cap02_Ex01\Cap02_Ex01.csproj", "{8C4F1D42-3FF8-4343-A74E-FEF0518F2E43}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cap02_Ex2", "Cap02_Ex2\Cap02_Ex2.csproj", "{94BB8064-5B20-4DAF-ADC9-FB253FDA873A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{8C4F1D42-3FF8-4343-A74E-FEF0518F2E43}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8C4F1D42-3FF8-4343-A74E-FEF0518F2E43}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8C4F1D42-3FF8-4343-A74E-FEF0518F2E43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94BB8064-5B20-4DAF-ADC9-FB253FDA873A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94BB8064-5B20-4DAF-ADC9-FB253FDA873A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94BB8064-5B20-4DAF-ADC9-FB253FDA873A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94BB8064-5B20-4DAF-ADC9-FB253FDA873A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
