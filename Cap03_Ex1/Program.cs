@@ -11,13 +11,16 @@ namespace Cap03_Ex1
         static void Main(string[] args)
         {
 
+            //três variaveis do tipo inteira
             int A, B, R;
 
+            //deve inserir os valores em cada parte e eles serao armazenados em A e B
             Console.Write("Entre o valor <A>: ");
             A = int.Parse(Console.ReadLine());
             Console.Write("Entre o valor <B>: ");
             B = int.Parse(Console.ReadLine());
 
+            //Vai somar os valores A e B e vai armazenar no R
             R = A + B;
 
             Console.WriteLine();

@@ -11,8 +11,10 @@ namespace Cap3_Ex7
         static void Main(string[] args)
         {
 
+            //Quatro variaveis A, B e C para float que armazenam valores decimais
             float A, B, C;
 
+            //Converte os valores escritos para numeros decimais
             Console.Write("Informe o lado A: ");
             A = float.Parse(Console.ReadLine());
             Console.Write("Informe o lado B: ");

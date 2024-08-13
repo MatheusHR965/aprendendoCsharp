@@ -11,8 +11,10 @@ namespace Cap02_Ex01
         static void Main(string[] args)
         {
 
+            //declara a variavel nome para o tipo string
             string NOME;
 
+            //Armazena o valor escrito ns variavel nome
             Console.Write("Entre seu nome");
             NOME = Console.ReadLine();
             Console.WriteLine("Ola," + NOME);

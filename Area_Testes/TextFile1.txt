@@ -1,0 +1,31 @@
+﻿-STRING ola mundo; // Declara uma variavel ola mundo para o tipo string;
+-int ola mundo; // Declara ola mundo como uma variavel do tipo inteiro;
+-Console.ReadLine() // Encerra o comado ao apertar enter;
+-Console.ReadKey() // Encerra o comando ao apertar qualquer tecla;
+-Console.Write("Ola mundo"); // Exibe a mensagem ola mundo;
+-Console.WriteLine("Ola mundo"); Exibe ola mundo na tela e quebra uma linha em seguida;
+-nome = Console.ReadLine(); // Ola mundo na telalê a entrada do usuário no console até que ele pressione Enter. O valor digitado pelo usuário é então armazenado na variável nome;
+-QUOOCIENTE = DIVIDENTO / DIVISOR; // Ele divide os valores armazenado nas variaveis e armazena;
+-QUOOCIENTE = DIVIDENTO * DIVISOR; // Ele multiplica os valores armazenados nas variaveis e armazena;
+-QUOOCIENTE = DIVIDENTO - DIVISOR; // Ele substrai os valores armazenados nas variaveis e armazena;
+-QUOOCIENTE = DIVIDENTO + DIVISOR; // Ele soma os valores armazenados nas variaveis e armazena
+-QUOOCIENTE = (DIVIDENTO / DIVISOR) * 10; Ele divide os valores armazenados e depois divide por 10 e armazena;
+
+
+-// Switch de nome oLA MUNDO, vai analisar cada um dos cases abaixo para ver se são reais, se nao for, o default vai aparecer com a mensagem escrita, break serve para parar a analise do case
+E vai par o outro case.
+
+-Switch (Ola mundo)
+	case "1" Console.WriteLine("Ola mundo"); break;
+	case "2" Console.WriteLine("Ola mundo"); break;
+	default: Console.WriteLine("Não reconhecido"); break;
+
+
+Se o valor digitado for igual ao definido, Certo. Se não, Errado
+
+-if (PEDIDO == NR)
+     Console.WriteLine("Acertou - foi sorteado: {0}.", NR);
+
+-else
+     Console.WriteLine("Errou - foi sorteado: {0}.", NR);
+
