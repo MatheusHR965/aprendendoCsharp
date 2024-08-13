@@ -11,9 +11,12 @@
 -QUOOCIENTE = DIVIDENTO + DIVISOR; // Ele soma os valores armazenados nas variaveis e armazena
 -QUOOCIENTE = (DIVIDENTO / DIVISOR) * 10; Ele divide os valores armazenados e depois divide por 10 e armazena;
 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 -// Switch de nome oLA MUNDO, vai analisar cada um dos cases abaixo para ver se são reais, se nao for, o default vai aparecer com a mensagem escrita, break serve para parar a analise do case
 E vai par o outro case.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 -Switch (Ola mundo)
 	case "1" Console.WriteLine("Ola mundo"); break;
@@ -23,9 +26,30 @@ E vai par o outro case.
 
 Se o valor digitado for igual ao definido, Certo. Se não, Errado
 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 -if (PEDIDO == NR)
      Console.WriteLine("Acertou - foi sorteado: {0}.", NR);
 
 -else
      Console.WriteLine("Errou - foi sorteado: {0}.", NR);
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+// tenta executar o código dentro dele. Aqui, o programa realiza a divisão de DIVIDENDO por DIVISOR e armazena o resultado em QUOCIENTE.
+
+//Se a divisão por zero for tentada (ou seja, se DIVISOR for zero), o código dentro do bloco catch será executado.
+
+//DivideByZeroException é uma exceção específica que ocorre quando se tenta dividir por zero. Neste caso, o código exibe a mensagem "Erro - divisão por zero" no console.
+
+ try
+            {
+                QUOCIENTE = DIVIDENDO / DIVISOR;
+
+                Console.WriteLine();
+                Console.WriteLine("Resultado = {0}", QUOCIENTE);
+            }
+            catch (DivideByZeroException dbze)
+            {
+                Console.WriteLine();
+                Console.WriteLine("Erro - divisao por zero");
+            }
 

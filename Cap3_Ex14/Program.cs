@@ -11,8 +11,10 @@ namespace Cap3_Ex14
         static void Main(string[] args)
         {
 
+            //As variaveis abaixo são do tipo inteiro
             int DIVIDENDO, DIVISOR, QUOCIENTE;
 
+            //Pega os valores digitados e altera eles para o tipo inteiro e armazena eles
             Console.Write("Entre o valor do dividento ..: ");
             DIVIDENDO = int.Parse(Console.ReadLine());
 
